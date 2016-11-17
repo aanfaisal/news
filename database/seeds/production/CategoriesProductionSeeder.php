@@ -11,11 +11,12 @@ class CategoriesProductionSeeder extends Seeder
      */
     public function run()
     {
-        createCategory(['name' => 'News']);
-        createCategory(['name' => 'Plugins']);
-        createCategory(['name' => 'Tutorials']);
-        createCategory(['name' => 'Meetups']);
-        $featured = createCategory(['name' => 'Featured']);
+        createCategory(['name' => 'Politik']);
+        createCategory(['name' => 'Ekonomi']);
+        createCategory(['name' => 'Teknologi']);
+        createCategory(['name' => 'Olahraga']);
+         createCategory(['name' => 'Hiburan']);
+        $featured = createCategory(['name' => 'Pendidikan']);
 
         //add only one post to featured
         $featured->posts()->attach(\App\Post::latest()->first());

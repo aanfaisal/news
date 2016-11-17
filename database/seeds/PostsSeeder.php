@@ -12,7 +12,7 @@ class PostsSeeder extends Seeder
     public function run()
     {
         DB::table('posts')->truncate();
-        
-        factory(App\Post::class, 15)->create();
+
+        factory(App\Post::class, 5)->create();
     }
 }
