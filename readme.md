@@ -27,10 +27,6 @@ php artisan serve
 
 If you are making changes to JavaScript or Styles make sure you run `gulp watch`.
 
-## Technical Description
-
-You can find the technical description and a list with the libraries used in development [here](https://github.com/Vuedo/vuedo/wiki/Technical-Description).
-
 ## Issues
 
 For technical questions and bugs feel free to open one issue.
